@@ -1,0 +1,32 @@
+paths:
+  data_dir: Data
+  raw_recipes: Data/RAW_recipes.csv
+  raw_interactions: Data/RAW_interactions.csv
+  pp_recipes: Data/PP_recipes.csv
+  pp_users: Data/PP_users.csv
+  train_interactions: Data/interactions_train.csv
+  validation_interactions: Data/interactions_validation.csv
+  test_interactions: Data/interactions_test.csv
+  outputs_dir: outputs
+  models_dir: outputs/models
+  recommendations_dir: outputs/recommendations
+  figures_dir: reports/figures
+
+data:
+  rating_min: 1
+  rating_max: 5
+  zero_rating_policy: decide
+  max_minutes_after_cleaning: 1440
+  random_seed: 42
+
+svd:
+  n_factors: 100
+  n_epochs: 20
+  lr_all: 0.005
+  reg_all: 0.02
+
+hybrid:
+  svd_weight: 0.7
+  bayesian_weight: 0.3
+  top_n: 10
+

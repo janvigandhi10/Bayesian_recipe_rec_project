@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+Data/*
+!Data/README.md
+outputs/models/*
+outputs/recommendations/*
+reports/figures/*
+!outputs/models/.gitkeep
+!outputs/recommendations/.gitkeep
+!reports/figures/.gitkeep
