@@ -15,3 +15,5 @@ reports/figures/*
 !reports/figures/rating_distribution.png
 !reports/figures/recipe_rating_vs_count.png
 !reports/figures/user_average_rating_distribution.png
+!reports/figures/ratings_per_recipe.png
+!reports/figures/ratings_per_user.png
