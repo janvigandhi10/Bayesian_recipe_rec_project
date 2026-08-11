@@ -17,3 +17,4 @@ reports/figures/*
 !reports/figures/user_average_rating_distribution.png
 !reports/figures/ratings_per_recipe.png
 !reports/figures/ratings_per_user.png
+reports/model_results/svd_test_predictions.csv

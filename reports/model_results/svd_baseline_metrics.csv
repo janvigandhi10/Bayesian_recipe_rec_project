@@ -1,0 +1,4 @@
+model,n_test,rmse,mae
+Global mean,55780,0.8055,0.5405
+SVD - all held-out ratings,55780,0.7764,0.4881
+SVD - known user & recipe,51265,0.7624,0.4779
