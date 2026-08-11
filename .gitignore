@@ -12,3 +12,6 @@ reports/figures/*
 !outputs/models/.gitkeep
 !outputs/recommendations/.gitkeep
 !reports/figures/.gitkeep
+!reports/figures/rating_distribution.png
+!reports/figures/recipe_rating_vs_count.png
+!reports/figures/user_average_rating_distribution.png
