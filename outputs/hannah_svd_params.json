@@ -1,0 +1,24 @@
+{
+  "n_factors": 25,
+  "n_epochs": 20,
+  "lr_all": 0.005,
+  "reg_all": 0.2,
+  "random_state": 42,
+  "selected_by": "inner per-user holdout RMSE on a seeded 200K-row warm_train subsample; extended grid = {50,100,150}x{0.02,0.05,0.1} plus (25,0.1), (25,0.2), (50,0.2)",
+  "inner_rmse": 0.6793,
+  "winner_interior": false,
+  "pct_holdout_with_later_train_interaction": 75.122,
+  "temporal_model": {
+    "svd_params": {
+      "n_factors": 25,
+      "n_epochs": 20,
+      "lr_all": 0.005,
+      "reg_all": 0.2,
+      "random_state": 42
+    },
+    "baseline_only": "surprise BaselineOnly, ALS defaults",
+    "split": "per multi-rating user: chronologically last starred rating held (by date, ties by row order); holdout restricted to warm recipes",
+    "train_rows": 657500,
+    "holdout_rows": 23597
+  }
+}

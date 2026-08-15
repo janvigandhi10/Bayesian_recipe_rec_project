@@ -1,0 +1,102 @@
+track,split,model,metric,value,n
+stars,warm_holdout,SVD,RMSE,0.6936395895782143,23603
+stars,warm_holdout,SVD,MAE,0.43930064222044135,23603
+stars,warm_holdout,bias only (BaselineOnly),RMSE,0.6958376183888991,23603
+stars,warm_holdout,bias only (BaselineOnly),MAE,0.44338111620364085,23603
+stars,warm_holdout,hybrid w* (1+4p),RMSE,0.7112715995788244,23603
+stars,warm_holdout,hybrid w* (1+4p),MAE,0.5364864883381449,23603
+stars,warm_holdout,hybrid 0.7/0.3 ref (1+4p),RMSE,0.7112715995788244,23603
+stars,warm_holdout,hybrid 0.7/0.3 ref (1+4p),MAE,0.5364864883381449,23603
+stars,warm_holdout,Bayesian alone (1+4p),RMSE,0.9293559709290701,23603
+stars,warm_holdout,Bayesian alone (1+4p),MAE,0.812448418540706,23603
+stars,warm_holdout,"global mean (refit, leak-free)",RMSE,0.727326705476237,23603
+stars,warm_holdout,"global mean (refit, leak-free)",MAE,0.4990150260498281,23603
+stars,warm_holdout,"user mean (refit, leak-free)",RMSE,0.7899335583744072,23603
+stars,warm_holdout,"user mean (refit, leak-free)",MAE,0.4420332221361507,23603
+stars,warm_holdout_temporal,SVD,RMSE,0.6922718603335999,23597
+stars,warm_holdout_temporal,SVD,MAE,0.4305599649710923,23597
+stars,warm_holdout_temporal,bias only (BaselineOnly),RMSE,0.6945437189066116,23597
+stars,warm_holdout_temporal,bias only (BaselineOnly),MAE,0.43398882358380275,23597
+stars,warm_holdout_temporal,hybrid w* (1+4p),RMSE,0.7191395140983267,23597
+stars,warm_holdout_temporal,hybrid w* (1+4p),MAE,0.5388231092846861,23597
+stars,warm_holdout_temporal,hybrid 0.7/0.3 ref (1+4p),RMSE,0.7191395140983267,23597
+stars,warm_holdout_temporal,hybrid 0.7/0.3 ref (1+4p),MAE,0.5388231092846861,23597
+stars,warm_holdout_temporal,Bayesian alone (1+4p),RMSE,0.953711424340271,23597
+stars,warm_holdout_temporal,Bayesian alone (1+4p),MAE,0.8340896902268421,23597
+stars,warm_holdout_temporal,"global mean (refit, leak-free)",RMSE,0.7230855561422764,23597
+stars,warm_holdout_temporal,"global mean (refit, leak-free)",MAE,0.4876393706800227,23597
+stars,warm_holdout_temporal,"user mean (refit, leak-free)",RMSE,0.7914099056071182,23597
+stars,warm_holdout_temporal,"user mean (refit, leak-free)",MAE,0.4384813057908617,23597
+stars,validation,SVD,RMSE,0.8657772845199442,6667
+stars,validation,SVD,MAE,0.5793291414751898,6667
+stars,validation,bias only (BaselineOnly),RMSE,0.8722076784725716,6667
+stars,validation,bias only (BaselineOnly),MAE,0.5889900714388926,6667
+stars,validation,hybrid w* (1+4p),RMSE,0.8377311524677912,6667
+stars,validation,hybrid w* (1+4p),MAE,0.6116149679547984,6667
+stars,validation,hybrid 0.7/0.3 ref (1+4p),RMSE,0.8377311524677912,6667
+stars,validation,hybrid 0.7/0.3 ref (1+4p),MAE,0.6116149679547984,6667
+stars,validation,Bayesian alone (1+4p),RMSE,0.9775083874044538,6667
+stars,validation,Bayesian alone (1+4p),MAE,0.8034694006945372,6667
+stars,validation,"global mean (refit, leak-free)",RMSE,0.9124798666660089,6667
+stars,validation,"global mean (refit, leak-free)",MAE,0.6282178239433348,6667
+stars,validation,"user mean (refit, leak-free)",RMSE,0.869623991479805,6667
+stars,validation,"user mean (refit, leak-free)",MAE,0.5449759579474585,6667
+stars,test,SVD,RMSE,0.8858466388462846,11768
+stars,test,SVD,MAE,0.5915620272410911,11768
+stars,test,bias only (BaselineOnly),RMSE,0.8911970542490014,11768
+stars,test,bias only (BaselineOnly),MAE,0.6005695594581067,11768
+stars,test,hybrid w* (1+4p),RMSE,0.8553510538211215,11768
+stars,test,hybrid w* (1+4p),MAE,0.6275777260136124,11768
+stars,test,hybrid 0.7/0.3 ref (1+4p),RMSE,0.8553510538211215,11768
+stars,test,hybrid 0.7/0.3 ref (1+4p),MAE,0.6275777260136124,11768
+stars,test,Bayesian alone (1+4p),RMSE,0.9713438779801988,11768
+stars,test,Bayesian alone (1+4p),MAE,0.8035876429404536,11768
+stars,test,"global mean (refit, leak-free)",RMSE,0.9228495438283284,11768
+stars,test,"global mean (refit, leak-free)",MAE,0.6312571698394002,11768
+stars,test,"user mean (refit, leak-free)",RMSE,0.9021658080629212,11768
+stars,test,"user mean (refit, leak-free)",MAE,0.5532295256199858,11768
+probability,warm eval half,static pooled rate,log_loss,0.5234020465401562,11873
+probability,warm eval half,static pooled rate,Brier,0.1699186811356202,11873
+probability,warm eval half,static pooled rate,AUC,0.5,11873
+probability,warm eval half,Bayesian posterior,log_loss,0.48111839388548877,11873
+probability,warm eval half,Bayesian posterior,Brier,0.1547927525943424,11873
+probability,warm eval half,Bayesian posterior,AUC,0.7071684966127778,11873
+probability,warm eval half,isotonic P(loved|svd) alone,log_loss,0.47568246126913605,11873
+probability,warm eval half,isotonic P(loved|svd) alone,Brier,0.15288447161288837,11873
+probability,warm eval half,isotonic P(loved|svd) alone,AUC,0.7104468184738694,11873
+probability,warm eval half,prob hybrid wp*=0.75,log_loss,0.47172273553409605,11873
+probability,warm eval half,prob hybrid wp*=0.75,Brier,0.15203800217777177,11873
+probability,warm eval half,prob hybrid wp*=0.75,AUC,0.7157981647764065,11873
+probability,validation,static pooled rate,log_loss,0.6903546372023315,6667
+probability,validation,static pooled rate,Brier,0.24520556058720983,6667
+probability,validation,static pooled rate,AUC,0.5,6667
+probability,validation,Bayesian posterior,log_loss,0.6219083896251705,6667
+probability,validation,Bayesian posterior,Brier,0.21645415243969687,6667
+probability,validation,Bayesian posterior,AUC,0.7146096231825682,6667
+probability,test,static pooled rate,log_loss,0.6843352960552883,11768
+probability,test,static pooled rate,Brier,0.242491152805228,11768
+probability,test,static pooled rate,AUC,0.5,11768
+probability,test,Bayesian posterior,log_loss,0.6296493386932909,11768
+probability,test,Bayesian posterior,Brier,0.21949896909070923,11768
+probability,test,Bayesian posterior,AUC,0.6988248917592541,11768
+weight_sweep,validation,fixed blend w=0.00,RMSE,0.9775083874044538,6667
+weight_sweep,validation,fixed blend w=0.05,RMSE,0.9593972225909694,6667
+weight_sweep,validation,fixed blend w=0.10,RMSE,0.9423226865196082,6667
+weight_sweep,validation,fixed blend w=0.15,RMSE,0.9263421030531066,6667
+weight_sweep,validation,fixed blend w=0.20,RMSE,0.9115130113131835,6667
+weight_sweep,validation,fixed blend w=0.25,RMSE,0.8978924653000818,6667
+weight_sweep,validation,fixed blend w=0.30,RMSE,0.8855362331588383,6667
+weight_sweep,validation,fixed blend w=0.35,RMSE,0.8744979089607279,6667
+weight_sweep,validation,fixed blend w=0.40,RMSE,0.864827957955385,6667
+weight_sweep,validation,fixed blend w=0.45,RMSE,0.8565727245779732,6667
+weight_sweep,validation,fixed blend w=0.50,RMSE,0.8497734401978202,6667
+weight_sweep,validation,fixed blend w=0.55,RMSE,0.8444652736408996,6667
+weight_sweep,validation,fixed blend w=0.60,RMSE,0.8406764708555937,6667
+weight_sweep,validation,fixed blend w=0.65,RMSE,0.8384276298286496,6667
+weight_sweep,validation,fixed blend w=0.70,RMSE,0.8377311524677912,6667
+weight_sweep,validation,fixed blend w=0.75,RMSE,0.8385909066493596,6667
+weight_sweep,validation,fixed blend w=0.80,RMSE,0.8410021195930671,6667
+weight_sweep,validation,fixed blend w=0.85,RMSE,0.8449515093483904,6667
+weight_sweep,validation,fixed blend w=0.90,RMSE,0.850417646033565,6667
+weight_sweep,validation,fixed blend w=0.95,RMSE,0.857371520267306,6667
+weight_sweep,validation,fixed blend w=1.00,RMSE,0.8657772845199442,6667
