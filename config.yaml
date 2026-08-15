@@ -15,15 +15,22 @@ paths:
 data:
   rating_min: 1
   rating_max: 5
-  zero_rating_policy: decide
+  zero_rating_policy: exclude
   max_minutes_after_cleaning: 1440
   random_seed: 42
 
 svd:
-  n_factors: 100
+  # tuned in hannah_02; see outputs/hannah_svd_params.json (authoritative — nb02 re-tunes and rewrites it)
+  n_factors: 50
   n_epochs: 20
   lr_all: 0.005
-  reg_all: 0.02
+  reg_all: 0.1
+
+bayesian:
+  # prior strengths used by hannah_03; outputs/hannah_bayes_params.json is authoritative post-run
+  s_user: 5
+  s_item: 10
+  s_tag: 5
 
 hybrid:
   svd_weight: 0.7
