@@ -168,3 +168,16 @@ If time gets tight, finish these first:
 - [ ] Combine scores with a weighted average.
 - [ ] Show example recommendations with confidence.
 - [ ] Report RMSE/MAE and at least one qualitative recommendation example.
+
+
+
+How to divide the work?
+- Project Summary: 1 minute 
+- Main Idea / SVD / Bayesian: 3 minutes
+- EDA + visuals: 2 minutes
+- Hybrid score + 70/30: 2 minutes
+- Streamlit demo: 5 minutes
+- Results + conclusion: 2 minutes
+
+Branch - https://github.com/janvigandhi10/Bayesian_recipe_rec_project/tree/janvi
+

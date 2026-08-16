@@ -389,6 +389,15 @@ st.markdown(
     div[data-baseweb="slider"] * {
         color: inherit;
     }
+    div[data-testid="stSlider"] label,
+    div[data-testid="stSlider"] p,
+    div[data-testid="stSlider"] span,
+    div[data-testid="stSlider"] div,
+    div[data-testid="stSlider"] [role="slider"],
+    section[data-testid="stSidebar"] div[data-testid="stSlider"] *,
+    section[data-testid="stSidebar"] div[data-baseweb="slider"] * {
+        color: #1f2933 !important;
+    }
     input,
     textarea {
         color: inherit;
