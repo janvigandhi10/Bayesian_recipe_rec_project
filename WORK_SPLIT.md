@@ -20,7 +20,7 @@ Understand and prepare the Food.com dataset so the models have clean inputs.
 
 ### Main Files
 
-- `notebooks/01_data_exploration.ipynb`
+- `notebooks/final/01_data_exploration.ipynb`
 - `src/data/load_data.py`
 - `src/data/cleaning.py`
 - `src/features/recipe_features.py`
@@ -57,7 +57,7 @@ Build the recommendation baseline using historical user-recipe ratings.
 
 ### Main Files
 
-- `notebooks/02_svd_baseline.ipynb`
+- `notebooks/final/02_svd_baseline.ipynb`
 - `src/models/baseline.py`
 - `src/models/svd_model.py`
 - `src/evaluation/metrics.py`
@@ -89,8 +89,8 @@ Add Bayesian personalization and uncertainty to the recommender.
 
 ### Main Files
 
-- `notebooks/03_bayesian_updating.ipynb`
-- `notebooks/04_hybrid_recommender.ipynb`
+- `notebooks/final/03_bayesian_updating.ipynb`
+- `notebooks/final/04_hybrid_recommender.ipynb`
 - `src/models/bayesian_updater.py`
 - `src/recommender/hybrid.py`
 - `docs/modeling_plan.md`
@@ -153,8 +153,8 @@ Everyone should bring:
 To avoid merge confusion:
 
 - Person 1 owns `01_data_exploration.ipynb`, `src/data/`, and `src/features/`.
-- Person 2 owns `02_svd_baseline.ipynb`, `src/models/baseline.py`, and `src/models/svd_model.py`.
-- Person 3 owns `03_bayesian_updating.ipynb`, `04_hybrid_recommender.ipynb`, `src/models/bayesian_updater.py`, and `src/recommender/`.
+- Person 2 owns `notebooks/final/02_svd_baseline.ipynb`, `src/models/baseline.py`, and `src/models/svd_model.py`.
+- Person 3 owns `notebooks/final/03_bayesian_updating.ipynb`, `notebooks/final/04_hybrid_recommender.ipynb`, `src/models/bayesian_updater.py`, and `src/recommender/`.
 - Anyone can edit docs, but mention the change in the group chat.
 - Avoid editing another person's notebook unless they ask.
 
@@ -168,4 +168,3 @@ If time gets tight, finish these first:
 - [ ] Combine scores with a weighted average.
 - [ ] Show example recommendations with confidence.
 - [ ] Report RMSE/MAE and at least one qualitative recommendation example.
-

@@ -19,3 +19,4 @@ reports/figures/*
 !reports/figures/ratings_per_user.png
 reports/model_results/svd_test_predictions.csv
 .DS_Store
+.surprise_data/

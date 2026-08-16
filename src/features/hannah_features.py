@@ -1,8 +1,8 @@
 """Shared feature-family definitions for the hannah_* notebooks.
 
 Extracted verbatim-in-logic from the feature-family cell of
-``notebooks/hannah_03_bayesian_updating.ipynb`` (which was semantically
-identical to the copy in ``hannah_04``), so both notebooks import a single
+``notebooks/final/03_bayesian_updating.ipynb`` (which was semantically
+identical to the copy in ``final/04_hybrid_recommender.ipynb``), so both notebooks import a single
 source of truth. Bump ``FEATURE_VERSION`` whenever CANDIDATES /
 ING_KEYWORDS / flag construction change; the notebooks print it as a drift
 guard.
