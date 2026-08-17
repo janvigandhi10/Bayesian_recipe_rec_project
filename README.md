@@ -123,7 +123,7 @@ The project uses the Food.com Recipes and User Interactions dataset from Kaggle.
 The dataset includes:
 
 - over 180,000 recipes
-- about 1,200,000 user ratings and reviews
+- about 1,100,000 user ratings and reviews
 - ingredients
 - nutrition information
 - cooking instructions
